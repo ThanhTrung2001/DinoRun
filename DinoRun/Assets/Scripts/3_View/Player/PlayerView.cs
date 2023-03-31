@@ -10,6 +10,13 @@ public class PlayerView : MonoBehaviour
     animator = GetComponent<Animator>();
   }
 
-  
-    
+  public void JumpingAnimation()
+  {
+    animator.Play("Jump");
+  }
+
+  public void RunningAnimation()
+  {
+    animator.Play("Run");
+  }
 }
