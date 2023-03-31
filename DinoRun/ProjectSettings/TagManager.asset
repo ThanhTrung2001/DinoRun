@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Topographic
+  - DeathZone
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 2645715691
+    locked: 0
+  - name: Topographic
+    uniqueID: 1406266581
+    locked: 0
+  - name: Player
+    uniqueID: 1758547047
     locked: 0
