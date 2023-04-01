@@ -4,15 +4,28 @@ using UnityEngine;
 
 public class GameModel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+  public bool isGameOver = false;
+  public int score;
 
-    // Update is called once per frame
-    void Update()
+  public void SetScore()
+  {
+    score = 0;
+  }
+  public void IncreaseScore()
+  {
+    if(isGameOver == false)
     {
-        
+      score++;
     }
+  }
+  public void GameOver()
+  {
+    isGameOver = true;
+  }
+  public void RestartGame()
+  {
+    isGameOver = false;
+  }
+
+  
 }
