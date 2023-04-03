@@ -26,6 +26,4 @@ public class GameModel : MonoBehaviour
   {
     isGameOver = false;
   }
-
-  
 }
