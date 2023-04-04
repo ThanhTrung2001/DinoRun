@@ -50,6 +50,10 @@ public class PlayerController : MonoBehaviour
       view.RunningAnimation();
       model.isGrounded();
     }
+    else if(other.gameObject.CompareTag("Goal"))
+    {
+      GameController.Instance.setGameComplete();
+    }
   }
 
   private void OnTriggerEnter2D(Collider2D other) {

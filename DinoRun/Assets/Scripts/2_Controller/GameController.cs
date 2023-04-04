@@ -33,7 +33,13 @@ public class GameController : MonoBehaviour
   public void setGameOver()
   {
     gameModel.GameOver();
-    gameView.showGameOver();
+    gameView.ShowGameOver();
+  }
+
+  public void setGameComplete()
+  {
+    gameModel.GameOver();
+    gameView.ShowGameComplete();
   }
 
   public void MenuClick()
