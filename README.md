@@ -1,5 +1,7 @@
 # DinoRun
-Unity Tutorial Game
+Unity Tutorial Game - DinoRun
+- Runner 2D Game
+- Can choose character in option
 1. HomeScreen
 -----
 ![image](https://user-images.githubusercontent.com/75150646/229538186-186877d4-907e-4747-9c47-e191e8a7298c.png)
